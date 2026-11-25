@@ -283,6 +283,11 @@ if(r.ok){f.reset();say('ok','ok')}else{say('err','err')}
 });
 f.addEventListener('input',function(e){if(e.target.getAttribute('aria-invalid')==='true')e.target.setAttribute('aria-invalid','false')});
 })();
+</script><script>
+(function(){
+var P={'Our students':['Screenshot%202026-11-25%20100047.png','50% 30%'],'Our campus':['Screenshot%202026-11-25%20100208.png','50% 40%'],'On the field':['Screenshot%202026-11-25%20095952.png','50% 40%']};
+Object.keys(P).forEach(function(k){var i=document.querySelector('#campus img[alt="'+k+'"]');if(i){i.src=P[k][0];i.style.objectPosition=P[k][1]}});
+})();
 </script></body>
 </html>
 
