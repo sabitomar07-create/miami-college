@@ -188,6 +188,101 @@ btn.addEventListener('click',function(){apply(root.lang!=='ar')});
 try{if(localStorage.getItem('mc-lang')==='ar')apply(true)}catch(e){}
 })();
 </script>
-</body>
+<script>
+/* Miami College - application form (Formspree) + logo. */
+(function(){
+if(window.__mcApply)return;window.__mcApply=1;
+var d=document,ENDPOINT='https://formspree.io/f/xppdkgpp',LOGO='data:image/png;base64,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';
+function $(s){return d.querySelector(s)}
+
+var css=d.createElement('style');
+css.textContent='.logo-badge{display:inline-block;flex:none;border-radius:9999px;background:#fff url("'+LOGO+'") center/74% no-repeat;box-shadow:0 0 0 2px rgba(255,199,44,.55)}'
++'.formbox{background:var(--card);border:1px solid var(--line)}'
++'.lbl{display:block;font-size:.85rem;font-weight:600;margin-bottom:.4rem}'
++'.fld{width:100%;border-radius:.75rem;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:.8rem 1rem;font:inherit;transition:border-color .2s,box-shadow .2s}'
++'.fld:focus{outline:none;border-color:#FFC72C;box-shadow:0 0 0 3px rgba(255,199,44,.35)}'
++'.fld::placeholder{color:var(--muted);opacity:.8}.fld[aria-invalid=true]{border-color:#D7263D}'
++'#apply-btn{cursor:pointer;border:0}#apply-btn:disabled{opacity:.6;cursor:not-allowed;transform:none}'
++'#apply-status{display:none;border-radius:.75rem;padding:.9rem 1rem;font-size:.95rem;line-height:1.5}'
++'#apply-status[data-type=info]{display:block;border:1px solid var(--line)}'
++'#apply-status[data-type=ok]{display:block;border:1px solid #16a34a;background:rgba(22,163,74,.12)}'
++'#apply-status[data-type=err]{display:block;border:1px solid #D7263D;background:rgba(215,38,61,.12)}';
+d.head.appendChild(css);
+
+function badge(size,extra){var s=d.createElement('span');s.className='logo-badge'+(extra?' '+extra:'');s.setAttribute('role','img');s.setAttribute('aria-label','Miami College logo');s.style.width=s.style.height=size+'px';return s}
+function swap(svg,size,extra){if(svg&&svg.parentNode)svg.parentNode.replaceChild(badge(size,extra),svg)}
+swap($('header a[href="#top"] svg'),46);
+swap($('.hero svg.mx-auto'),120,'mx-auto mt-10 block');
+swap($('footer svg'),48);
+
+var a1=$('header a.btn-red'),a2=$('.hero a.btn');
+if(a1)a1.setAttribute('href','#apply');
+if(a2)a2.setAttribute('href','#apply');
+
+var tel=$('footer a[href="tel:+2035481421"]');
+if(tel)tel.insertAdjacentHTML('afterend','<br><a class="hover:text-white transition" href="tel:+201114499904" dir="ltr">+20 111 449 9904</a>');
+var faqLink=$('footer a[href="#faq"]');
+if(faqLink&&faqLink.parentNode)faqLink.parentNode.insertAdjacentHTML('beforebegin','<li><a class="hover:text-white transition" href="#apply" data-ar="\u0642\u062f\u0651\u0645 \u0627\u0644\u0622\u0646">Apply Now</a></li>');
+
+var sec=d.createElement('section');sec.id='apply';sec.className='max-w-3xl mx-auto px-5 py-24 md:py-32';
+sec.innerHTML=''
++'<p class="gold text-xs tracking-[.3em] uppercase text-center" data-ar="\u0642\u062f\u0651\u0645 \u0623\u0648\u0646\u0644\u0627\u064a\u0646">Apply online</p>'
++'<h2 class="serif text-4xl md:text-5xl mt-4 text-center" data-ar="\u0642\u062f\u0651\u0645 \u0641\u064a \u0643\u0644\u064a\u0629 \u0645\u064a\u0627\u0645\u064a.">Apply to Miami College.</h2>'
++'<p class="muted mt-4 text-center max-w-xl mx-auto" data-ar="\u0627\u0645\u0644\u0623 \u0627\u0644\u0646\u0645\u0648\u0630\u062c \u0648\u0633\u064a\u062a\u0648\u0627\u0635\u0644 \u0645\u0639\u0643 \u0641\u0631\u064a\u0642 \u0627\u0644\u0642\u0628\u0648\u0644 \u0642\u0631\u064a\u0628\u064b\u0627.">Fill in the form and our admissions team will contact you shortly.</p>'
++'<form id="apply-form" class="formbox rounded-2xl p-6 md:p-10 mt-12" action="'+ENDPOINT+'" method="POST" novalidate>'
++'<input type="hidden" name="_subject" value="New application - Miami College website">'
++'<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">'
++'<div class="grid md:grid-cols-2 gap-5">'
++'<div><label class="lbl" for="f-parent" data-ar="\u0627\u0633\u0645 \u0648\u0644\u064a \u0627\u0644\u0623\u0645\u0631">Parent or guardian name<span aria-hidden="true"> *</span></label><input class="fld" id="f-parent" name="parent_name" type="text" autocomplete="name" required></div>'
++'<div><label class="lbl" for="f-phone" data-ar="\u0627\u0644\u0647\u0627\u062a\u0641 / \u0648\u0627\u062a\u0633\u0627\u0628">Phone / WhatsApp<span aria-hidden="true"> *</span></label><input class="fld" id="f-phone" name="phone" type="tel" dir="ltr" autocomplete="tel" placeholder="01XXXXXXXXX" required></div>'
++'<div class="md:col-span-2"><label class="lbl" for="f-email" data-ar="\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a">Email</label><input class="fld" id="f-email" name="email" type="email" dir="ltr" autocomplete="email" placeholder="name@example.com"></div>'
++'<div><label class="lbl" for="f-student" data-ar="\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0643\u0627\u0645\u0644 \u0644\u0644\u0637\u0627\u0644\u0628">Student\u2019s full name<span aria-hidden="true"> *</span></label><input class="fld" id="f-student" name="student_name" type="text" required></div>'
++'<div><label class="lbl" for="f-age" data-ar="\u0633\u0646 \u0627\u0644\u0637\u0627\u0644\u0628">Student\u2019s age<span aria-hidden="true"> *</span></label><input class="fld" id="f-age" name="student_age" type="number" min="2" max="20" inputmode="numeric" required></div>'
++'<div class="md:col-span-2"><label class="lbl" for="f-grade" data-ar="\u0627\u0644\u0635\u0641 \u0627\u0644\u0645\u062a\u0642\u062f\u0645 \u0625\u0644\u064a\u0647">Grade applying for</label><input class="fld" id="f-grade" name="grade" type="text" data-ph-en="e.g. KG2, Grade 3" data-ph-ar="\u0645\u062b\u0627\u0644: KG2\u060c \u0627\u0644\u0635\u0641 \u0627\u0644\u062b\u0627\u0644\u062b" placeholder="e.g. KG2, Grade 3"></div>'
++'<div class="md:col-span-2"><label class="lbl" for="f-msg" data-ar="\u0631\u0633\u0627\u0644\u0629 (\u0627\u062e\u062a\u064a\u0627\u0631\u064a)">Message (optional)</label><textarea class="fld" id="f-msg" name="message" rows="4"></textarea></div>'
++'</div>'
++'<div id="apply-status" role="status" aria-live="polite" class="mt-6"></div>'
++'<button id="apply-btn" type="submit" class="btn-red rounded-full px-8 py-3.5 mt-6 w-full sm:w-auto" data-ar="\u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0637\u0644\u0628">Submit application</button>'
++'<p class="muted text-xs mt-4" data-ar="\u0646\u0633\u062a\u062e\u062f\u0645 \u0628\u064a\u0627\u0646\u0627\u062a\u0643 \u0641\u0642\u0637 \u0644\u0644\u0631\u062f \u0639\u0644\u0649 \u0637\u0644\u0628\u0643.">We only use your details to reply to your application.</p>'
++'</form>';
+var faq=$('#faq');
+if(faq&&faq.parentNode)faq.parentNode.insertBefore(sec,faq);else(d.querySelector('main')||d.body).appendChild(sec);
+
+/* English / Arabic for the new text (works with the site's language button) */
+function isAr(){return d.documentElement.lang==='ar'}
+function setLang(){
+var ar=isAr();
+Array.prototype.forEach.call(d.querySelectorAll('[data-ar]'),function(el){
+var n=el.firstChild;if(!n||n.nodeType!==3)return;
+if(!el.hasAttribute('data-en'))el.setAttribute('data-en',n.nodeValue);
+n.nodeValue=ar?el.getAttribute('data-ar'):el.getAttribute('data-en');
+});
+Array.prototype.forEach.call(d.querySelectorAll('[data-ph-ar]'),function(el){el.placeholder=ar?el.getAttribute('data-ph-ar'):el.getAttribute('data-ph-en')});
+}
+new MutationObserver(setLang).observe(d.documentElement,{attributes:true,attributeFilter:['lang']});
+(function init(){
+Array.prototype.forEach.call(d.querySelectorAll('[data-ar]'),function(el){var n=el.firstChild;if(n&&n.nodeType===3&&!el.hasAttribute('data-en'))el.setAttribute('data-en',n.nodeValue)});
+setLang();
+})();
+
+/* form */
+var f=$('#apply-form'),status=$('#apply-status'),btn=$('#apply-btn');
+var T={en:{sending:'Sending your application\u2026',ok:'Thank you! We received your application and will contact you soon.',err:'Something went wrong. Please try again in a moment.',net:'Could not connect. Please check your internet and try again.',fix:'Please fill in the required fields.'},
+ar:{sending:'\u062c\u0627\u0631\u064d \u0625\u0631\u0633\u0627\u0644 \u0637\u0644\u0628\u0643\u2026',ok:'\u0634\u0643\u0631\u064b\u0627 \u0644\u0643! \u0627\u0633\u062a\u0644\u0645\u0646\u0627 \u0637\u0644\u0628\u0643 \u0648\u0633\u0646\u062a\u0648\u0627\u0635\u0644 \u0645\u0639\u0643 \u0642\u0631\u064a\u0628\u064b\u0627.',err:'\u062d\u062f\u062b \u062e\u0637\u0623 \u0645\u0627. \u062d\u0627\u0648\u0644 \u0645\u0631\u0629 \u0623\u062e\u0631\u0649 \u0628\u0639\u062f \u0642\u0644\u064a\u0644.',net:'\u062a\u0639\u0630\u0651\u0631 \u0627\u0644\u0627\u062a\u0635\u0627\u0644. \u062a\u062d\u0642\u0642 \u0645\u0646 \u0627\u0644\u0625\u0646\u062a\u0631\u0646\u062a \u0648\u062d\u0627\u0648\u0644 \u0645\u0631\u0629 \u0623\u062e\u0631\u0649.',fix:'\u0627\u0644\u0631\u062c\u0627\u0621 \u0645\u0644\u0621 \u0627\u0644\u062d\u0642\u0648\u0644 \u0627\u0644\u0645\u0637\u0644\u0648\u0628\u0629.'}};
+function say(k,t){status.textContent=T[isAr()?'ar':'en'][k];status.setAttribute('data-type',t)}
+f.addEventListener('submit',function(e){
+e.preventDefault();
+var bad=false;
+Array.prototype.forEach.call(f.elements,function(el){if(el.willValidate){var v=!el.checkValidity();el.setAttribute('aria-invalid',v?'true':'false');if(v)bad=true}});
+if(bad){say('fix','err');var first=f.querySelector('[aria-invalid=true]');if(first)first.focus();return}
+btn.disabled=true;btn.setAttribute('aria-busy','true');say('sending','info');
+var data=new FormData(f);data.append('site_language',isAr()?'Arabic':'English');
+fetch(ENDPOINT,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(function(r){
+if(r.ok){f.reset();say('ok','ok')}else{say('err','err')}
+}).catch(function(){say('net','err')}).then(function(){btn.disabled=false;btn.removeAttribute('aria-busy')});
+});
+f.addEventListener('input',function(e){if(e.target.getAttribute('aria-invalid')==='true')e.target.setAttribute('aria-invalid','false')});
+})();
+</script></body>
 </html>
 
